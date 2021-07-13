@@ -1,0 +1,16 @@
+.sort-popover {
+  width: 200px;
+  &__header {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid lightgray;
+  }
+  &__title {
+    flex: 1;
+    padding: 0 10px;
+  }
+  &__body {
+    display: flex;
+    flex-direction: column;
+  }
+}

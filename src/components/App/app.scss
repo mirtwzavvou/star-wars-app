@@ -1,0 +1,25 @@
+.star-wars-movie-app {
+  &__header {
+    padding: 20px;
+    background: #eee;
+    display: flex;
+    @media (max-width: 480px) {
+      flex-direction: column;
+    }
+  }
+  &__main-content {
+    display: flex;
+    @media (max-width: 768px) {
+      flex-direction: column;
+    }
+  }
+  &__movie-list,
+  &__movie-preview {
+    flex: 1;
+  }
+  &__movie-preview {
+    @media (min-width: 769px) {
+      border-left: 1px solid lightgray;
+    }
+  }
+}

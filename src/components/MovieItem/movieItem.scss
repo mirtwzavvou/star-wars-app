@@ -1,0 +1,28 @@
+.movie-item {
+  border-bottom: 1px solid lightgray;
+  &--active {
+    background: lightgray;
+  }
+  &__button {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    text-align: left;
+    border: none;
+    padding: 0;
+    background: none;
+    cursor: pointer;
+    &:hover {
+      background: lightgray;
+    }
+  }
+  &__detail {
+    padding: 20px;
+    @media (max-width: 480px) {
+      padding: 15px 5px;
+    }
+    &--title {
+      flex: 1;
+    }
+  }
+}
